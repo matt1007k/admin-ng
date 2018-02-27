@@ -12,6 +12,8 @@ import { ProgressComponent } from './pages/progress/progress.component';
 import { Graficas1Component } from './pages/graficas1/graficas1.component';
 import { LoginComponent } from './login/login.component';
 import { APP_ROUTES } from './app.routes';
+import { PagesComponent } from './pages/pages.component';
+import { RegisterComponent } from './login/register.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { APP_ROUTES } from './app.routes';
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-    LoginComponent
+    LoginComponent,
+    PagesComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
